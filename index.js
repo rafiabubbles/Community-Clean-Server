@@ -232,6 +232,6 @@ app.get("/api/add-issue/:id", async (req, res) => {
 
   } catch (err) {
     console.error("❌ Error connecting to MongoDB:", err);
-    process.exi(1);
+    process.exit(1);
   }
 })();
