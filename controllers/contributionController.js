@@ -1,4 +1,4 @@
-// controllers/contributionsController.js
+
 function ContributionsController(ContributionModel) {
   return {
     getContributions: async (req, res) => {

@@ -1,4 +1,4 @@
-// controllers/issuesController.js
+
 function IssuesController(IssueModel) {
   return {
     getAllIssues: async (req, res) => {

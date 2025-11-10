@@ -7,7 +7,7 @@ function init(contributionModel) {
 
 const router = express.Router();
 
-// GET contributions (optional: filter by issueId or email)
+// GET contributions
 router.get("/", async (req, res) => {
   try {
     const { issueId, email } = req.query;

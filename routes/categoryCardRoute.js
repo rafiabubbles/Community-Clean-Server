@@ -1,9 +1,8 @@
-// server/routes/categoryCardRoute.js
+
 const express = require("express");
 
 const router = express.Router();
 
-// This will be set when you inject the collection
 let categoryCollection;
 
 // Middleware to inject collection
@@ -26,7 +25,7 @@ router.get("/", async (req, res) => {
   }
 });
 
-// POST a new category card (optional for admin UI)
+// POST a new category card 
 router.post("/", async (req, res) => {
   try {
     const card = req.body;

@@ -1,4 +1,3 @@
-// routes/addIssueRoutes.js
 const express = require("express");
 
 let addIssueCollection;

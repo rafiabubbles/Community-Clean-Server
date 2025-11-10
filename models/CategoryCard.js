@@ -1,4 +1,4 @@
-// server/models/categoryCard.js
+
 const { ObjectId } = require("mongodb");
 
 class CategoryCard {
