@@ -39,7 +39,7 @@ router.get("/:id", async (req, res) => {
 });
 
 // POST new issue
-router.post("/", async (req, res) => {
+router.pos("/", async (req, res) => {
   try {
     const result = await Issue.create(req.body);
     res.status(201).json({ success: true, id: result.insertedId });
